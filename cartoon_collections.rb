@@ -24,6 +24,7 @@ def find_the_cheese(food)
     ii = 0
     while ii < cheese_types.length do
       if food[i].include?(cheese_types[ii])
+        first_cheese = cheese_types[ii]
         i = food.length + 1
         break
       end
@@ -31,4 +32,5 @@ def find_the_cheese(food)
     end
     i+=1
   end
+  first_cheese
 end
