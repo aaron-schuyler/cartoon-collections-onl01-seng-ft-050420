@@ -27,6 +27,7 @@ def find_the_cheese(food)
         i = food.length + 1
         break
       end
+      ii+=1
     end
     i+=1
   end
